@@ -1,0 +1,6 @@
+Function Definition: The function insertionSort takes an array arr as input.
+Outer Loop: It starts from the second element (index 1) and iterates through each element until the end of the array.
+Key Assignment: The current element (arr[i]) is stored in key.
+Inner Loop: It compares key with elements in the sorted portion (from arr[0] to arr[i-1]). If an element is greater than key, it shifts that element to the right.
+Insertion: Once the correct position is found, key is inserted into that position.
+Return Value: Finally, the sorted array is returned.
